@@ -11,32 +11,33 @@ def cadastrar_aluno():
     print(f"Aluno {nome} cadastrado com sucesso!")
 
 def nova_matricula(curso):
-    numero_matricula = Counter(a["curso"] for a in alunos) + 1
-    return curso + str(numero_matricula)
+    contagem = sum(1 for a in alunos if a["curso"] == curso)
+    return curso + str(contagem + 1)
 
 def listar_alunos():
     if not alunos:
         print("Nenhum aluno cadastrado.")
     else:
         for aluno in alunos:
-            print(f"Nome: {aluno['nome']}, E-mail: {aluno['email']}, Sala: {aluno['sala_de_atendimento']}")
+            print(f"Nome: {aluno['nome']}, E-mail: {aluno['email']}, Matrícula: {aluno['matricula']}")
 
 def atualizar_aluno():
     nome = input("Digite o nome do aluno a ser atualizado: ")
     for aluno in alunos:
         if aluno["nome"] == nome:
             aluno["email"] = input("Digite o novo e-mail: ")
-            aluno["sala_de_atendimento"] = input("Digite a nova sala de atendimento: ")
-            print("aluno atualizado com sucesso!")
+            aluno["curso"] = input("Digite o novo curso: ")
+            aluno["matricula"] = nova_matricula(aluno["curso"])
+            print("Aluno atualizado com sucesso!")
             return
-    print("aluno não encontrado.")
+    print("Aluno não encontrado.")
 
 def remover_aluno():
     nome = input("Digite o nome do aluno a ser removido: ")
     for aluno in alunos:
         if aluno["nome"] == nome:
             alunos.remove(aluno)
-            print("aluno removido com sucesso!")
+            print("Aluno removido com sucesso!")
             return
     print("aluno não encontrado.")
 
