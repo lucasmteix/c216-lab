@@ -1,0 +1,77 @@
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Digite o nome do aluno: Digite o e-mail do aluno: Digite o curso do aluno: Aluno aa cadastrado com sucesso!
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Digite o nome do aluno: Digite o e-mail do aluno: Digite o curso do aluno: Aluno bb cadastrado com sucesso!
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Digite o nome do aluno: Digite o e-mail do aluno: Digite o curso do aluno: Aluno cc cadastrado com sucesso!
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Digite o nome do aluno: Digite o e-mail do aluno: Digite o curso do aluno: Aluno dd cadastrado com sucesso!
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Nome: aa, E-mail: aa@g.c, Matrícula: GES1
+Nome: bb, E-mail: bb@g.c, Matrícula: GES2
+Nome: cc, E-mail: cc@g.c, Matrícula: GEA1
+Nome: dd, E-mail: dd@g.c, Matrícula: GEA2
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Digite o nome do aluno a ser atualizado: Digite o novo e-mail: Digite o novo curso: Aluno atualizado com sucesso!
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Digite o nome do aluno a ser removido: Aluno removido com sucesso!
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Nome: aa, E-mail: aa@g.c, Matrícula: GES1
+Nome: bb, E-mail: bb@g.c, Matrícula: GES2
+Nome: cc, E-mail: novocc@g.com, Matrícula: GEB1
+
+Menu de Opções:
+1. Cadastrar aluno
+2. Listar alunos
+3. Atualizar aluno
+4. Remover aluno
+5. Sair
+Escolha uma opção: Saindo...

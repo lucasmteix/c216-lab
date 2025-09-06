@@ -26,8 +26,10 @@ def atualizar_aluno():
     for aluno in alunos:
         if aluno["nome"] == nome:
             aluno["email"] = input("Digite o novo e-mail: ")
-            aluno["curso"] = input("Digite o novo curso: ")
-            aluno["matricula"] = nova_matricula(aluno["curso"])
+            curso = input("Digite o novo curso: ")
+            aluno["matricula"] = nova_matricula(curso)
+            aluno["curso"] = curso # curso eh atualizado depois de matricula para nao causar
+            # erro de contagem no numero da nova matricula
             print("Aluno atualizado com sucesso!")
             return
     print("Aluno não encontrado.")
@@ -39,7 +41,7 @@ def remover_aluno():
             alunos.remove(aluno)
             print("Aluno removido com sucesso!")
             return
-    print("aluno não encontrado.")
+    print("Aluno não encontrado.")
 
 def main():
     while True:
